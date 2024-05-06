@@ -3,21 +3,80 @@
     padding: 0;
 }
 
+body{
+        font-family: "Poppins", sans-serif;
+        font-weight: 250;
+        font-style: normal;
+}
+  
 .cabecalho { 
     background-color: rgb(0, 0, 0);
     color: white;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 20px 0;
+    padding: 15px 0;
 }
 
 .cabecalho-imagem{
-    width: 14%;
+    width: 13%;
 }
 
 .cabecalho-lista-item{
     display: inline-block;
     margin: 0 16px;
-    font-size: 25px;
+    font-size: 24px;
+}
+
+.escola-imagem{
+    width: 25%;
+}
+
+.escola{
+    background-image: linear-gradient(#000000, #a09c9c);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.escola-div-conteudo{
+    width: 35%;
+}
+
+.escola-titulo{
+    padding: 24px 0;
+}
+
+.fundador-imagem{
+    width: 120px;
+}
+
+.fundador-icon{
+    width: 24px;
+}
+
+.estudante-div{
+    text-align: center;
+}
+
+.estudante-titulo{
+    text-align: center;
+    padding: 50px 0;
+}
+
+.estudante-todos{
+    display: grid;
+    grid-template-columns: 16% 16% 16% 16% 16%;
+}
+
+.rodape{
+    background-color: #000000;
+    text-align: center;
+}
+
+.rodape-imagem{
+    height: 100px;
+    padding: 12px 0;
 }
